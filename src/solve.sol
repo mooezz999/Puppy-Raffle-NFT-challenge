@@ -23,11 +23,8 @@ interface ERC {
 
     ERC public erc = ERC(0x31801c3e09708549c1b2c9E1CFbF001399a1B9fa);
 
-     Lesson public lesson;
+    Lesson public lesson = Lesson(0xf988Ebf9D801F4D3595592490D7fF029E438deCa);
 
-      constructor(address _lesson) {
-        lesson = Lesson(_lesson);
-     }
 
 
 //    uint256 public x = 0;
