@@ -13,12 +13,12 @@ contract SolveTest is Test {
     }
 
     function test_solve() public {
-        solve.soolve();
+        solve.solveTheChallenge();
        
     }
 
     function test_canTransferNft() public {
-        solve.soolve();
+        solve.solveTheChallenge();
         solve.safeTransfer();
     }
 }
