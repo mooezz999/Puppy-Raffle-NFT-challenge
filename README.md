@@ -20,6 +20,13 @@ https://book.getfoundry.sh/
 ```shell
 $ forge build
 ```
+### Quickstart
+
+```shell
+git clone https://github.com/mooezz999/Puppy-Raffle-NFT-challenge.git
+cd Puppy-Raffle-NFT-challenge
+make install
+```
 
 ### Test
 
