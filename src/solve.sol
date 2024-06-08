@@ -22,10 +22,6 @@ interface ERC {
     Lesson public lesson = Lesson(0xf988Ebf9D801F4D3595592490D7fF029E438deCa);
 
 
-
-//    uint256 public x = 0;
-//    uint256 public y = 1;
-
     function owner() external view returns(address) {
         return address(this);
         // x+=1;
