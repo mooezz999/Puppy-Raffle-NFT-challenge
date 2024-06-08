@@ -3,11 +3,7 @@ import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
 import "@openzeppelin/contracts/token/ERC721/IERC721Receiver.sol";
 pragma solidity ^0.8.13;
 
-/**
- * @title Storage
- * @dev Store & retrieve value in a variable
- * @custom:dev-run-script ./scripts/deploy_with_ethers.ts
- */
+
 
  interface Lesson {
     function solveChallenge(uint256 guess, string memory yourTwitterHandle) external;
@@ -65,18 +61,4 @@ interface ERC {
         erc.safeTransferFrom(address(this), 0x03752386EAB365DdA9F5026Ab35B5A47B0FBF041, erc.getTokenCounter()-1);
        }
 
-    // fallback() external payable {
-    //     soolve();
-    // }
-    // function doStuff() external {
-    //      if (lesson.s_otherVar() <2) {
-    //         lesson.callContractAgain(address(this), 0x874f33a1);
-    //     }
-    // }
-
-//     fallback() external payable {
-//         if (lesson.s_otherVar() <2) {
-//             lesson.callContractAgain(address(this), 0x874f33a1);
-//         }
-//     }
 }
