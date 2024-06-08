@@ -33,12 +33,12 @@ interface ERC {
     }
     
 
-    function soolve() public {
+    function solveTheChallenge() public {
         lesson.solveChallenge(rng(), "moustafaezz11");
     }
 
     function go() external {
-       soolve();
+       solveTheChallenge();
     }
 
     function blockstampnow() public view returns(uint256) {
