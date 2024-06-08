@@ -27,9 +27,11 @@ $ forge build
 $ forge test
 ```
 
-To start testing this code you have to frok Sepolia using the following command:
+### To start testing this code you have to frok Sepolia using the following command:
 
-forge test --fork-url SEPOLIA_RPC_URL
+```shell
+$ forge test --fork-url SEPOLIA_RPC_URL
+```
 
 ### Format
 
